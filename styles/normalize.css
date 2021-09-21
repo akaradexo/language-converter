@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap');
+:root{
+    --black1: #181818;
+    --black2: #202020;
+    --white1: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #f6f2f2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #202020;
+    border-radius: 20px;
+  }
+html {
+  font-size: 16px;
+}
+body {
+  /* font-family: 'Barlow', sans-serif; */
+  font-family: 'Fraunces', serif;
+    margin: 0;
+    color: var(--white1);
+    background-color: var(--black1);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem;
+}
