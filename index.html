@@ -4,14 +4,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fun Translator</title>
+  <link rel="shortcut icon" href="./assests/maneki-neko.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
   
 </head>
 <body>
-  <h1>Boiler Plate</h1>
+    <div class="container">
+      <div class="heading">
+        <iframe src="https://giphy.com/embed/L0aWDywDu1ziw" width="380" height="193" frameBorder="0" allowFullScreen></iframe>
+        <h1>Fun Translator</h1>
+      </div>
+      <select id="language">
+        <option value="minion">Minion</option>
+        <option value="dothraki">Dothraki</option>
+        <option value="groot">Groot</option>
+        <option value="yoda">Yoda</option>
+        <option value="pirate">Pirate</option>
+        <option value="valspeak">Valspeak</option>
+        <option value="ferb-latin">Ferb-latin</option>
+        <option value="pig-latin">Pig-latin</option>
+        <option value="sith">Sith</option>
+        <option value="valyrian">Valyrian</option>
+        <option value="catalan">Catalan</option>
+        <option value="gungan">Gungan</option>
+        <option value="vulcan">Vulcan</option>
+        <option value="klingon">Klingon</option>
+        <option value="fudd">Fudd</option>
+        <option value="wow">Wow</option>
+      </select>
+      <div class="main">
+
+        <textarea  name="input" id="input" class="input" placeholder="Enter text to translate"></textarea>
+
+        <button class="button-54" role="button" id="btn-translate">
+          Translate
+        </button>
+
+        <div class="result">
+          <textarea readonly class="output" id="output" placeholder="Your Translation will be here !" ></textarea>
+        </div> 
+
+      </div>
+    </div>
 </body>
 <script src="./script/script.js"></script>
 </html>
